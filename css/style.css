@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.container {
+    max-width: 1030px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 110px;
+
+}
+.header__inner {
+    text-align: center;
+    width: 530px;
+    height: 530px;
+    border-radius: 50%;
+    border: 10px solid #f4d4a5;
+    background-color: #fff;
+    padding-top: 13px;
+    padding-bottom: 160px;
+    margin-left: 155px;
+}
+.header__name {
+    padding-top: 12px;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 15px;
+    color: #bf4200;
+}
+.phone {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 45px;
+    font-size: 35px;
+    margin-bottom: 40px;
+    text-decoration: none;
+    color: #000;
+}
+.header__title {
+    font-weight: 700;
+    color: #1fad26;
+    font-size: 50px;
+    text-transform: uppercase;
+    padding: 0 5px;
+}
+.header__sale {
+    margin-top: 100px;
+}
+.main {
+    text-align: center;
+}
+.footer {
+    text-align: center;
+}
+.main__title {
+    margin-bottom: 60px;
+    font-size: 41px;
+    color: #d07a2d;
+    margin-top: 80px;
+}
+.main__text {
+    font-size: 30px;
+}
+.main__text span {
+    font-weight: bold;
+}
+.main__img {
+    margin: 100px 0;
+}
+.project__title {
+    font-weight: 700;
+    font-size: 41px;
+    margin-bottom: 110px;
+    color: #d0662d;
+}
+.gallery__inner img{
+    display: block;
+}
+.gallery__inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    text-align: center;
+}
+.gallery {
+    width: 1004px;
+}
+.footer .phone {
+    font-weight: 700;
+
+}
+.footer__email {
+    padding-top: 40px;
+    padding-bottom: 150px;
+    color: #2f8bc5;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    
+    border-bottom: 1px solid #2f8bc5;
+}
+.project__name {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.project__size .project__area{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.project__price {
+    font-size: 25px;
+    color: #17753b;
+    margin-bottom: 30px;
+}
+.download {
+    padding: 40px 0;
+    margin-top: 150px;
+    background-color: #f1dfbc;
+}
+.download a {
+    width: 600px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    display: block;
+    font-size: 32px;
+    color: #fff;
+    font-weight: 700;
+    padding: 25px 65px;
+    background-color: #17753b;
+    border: 5px solid #effd15;
+    text-decoration: underline;
+}
+.gallery__title {
+    margin-top: 115px;
+    margin-bottom: 50px;
+}
+.gallery__text {
+    margin-bottom: 60px;
+}
